@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header-menu{
+    background-color: #ff7675;
+}
+.header-menu ul{
+    text-align: center;
+}
+.header-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-menu ul li a{
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    border-right: 1px solid #ddd;
+}
+.header-menu ul li:first-child a{
+    border-left: 1px solid #ddd;
+}
+.header-menu ul li:hover > a{
+    background-color: #d63031;
+}
+
+/*  Dropdown Menu  */
+
+.header-menu ul li{
+    position: relative;
+}
+.header-menu ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 203px;
+    background-color: #ff7675;
+    border-top: 1px solid #ddd;
+
+    transition: .4s;
+}
+.header-menu ul li ul li{
+    display: block;
+    margin-left: 0;
+}
+.header-menu ul li ul li a{
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+.header-menu ul ul li:first-child a{
+    border-left: none;
+}
+
+/*  hover Part  */
+
+.header-menu ul li ul{
+    opacity: 0;
+    visibility: hidden;
+
+    transform: scaley(0);
+    transform-origin: top center;
+}
+.header-menu ul li:hover ul{
+    transform: scaley(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+/*  Social Menu  */
+
+.social-menu{
+    margin-top: 100px;
+}
+.social-menu ul{
+    text-align: center;
+}
+.social-menu ul li{
+    display: inline-block;
+}
+.social-menu ul li a{
+    color: white;
+    background-color: #01a3a4;
+    font-size: 40px;
+    margin-left: 5px;
+    margin-right: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 100px;
+    text-align: center;
+}

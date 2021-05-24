@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+    <div class="maindiv">
+        <div class="header clearfix">
+            <div class="logo">
+                <img src="https://lh3.googleusercontent.com/proxy/Fm5CZSjSXu6ia1L86SV2qA0Vv__Qz3TCr9CVBXTZYqMJMAsJgYsE1yLwKzKCA3-xFWuWS4oibzZcwBhdo7YYIGIZ1WyQFy1KGeBm1KZF_S0pAsKVl9xHPyZNm2OIxL6w7nSGt04E" alt="">
+                <h2 class="fast-h2">BD-24.com</h2>
+            </div>
+            <div class="menu clearfix">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About As</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Gellary</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner">
+            <h1> Welcome To Our Website </h1>
+        </div>
+        <div class=" main-container clearfix">
+            <div class="container">
+                <img src="https://www.williamshakespeare.net/images/shakespeare.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eius consectetur perspiciatis laudantium impedit doloremque labore debitis facilis quod sed dicta enim illo nulla ab laboriosam, sint molestias quidem corrupti praesentium explicabo quam possimus fugit veniam hic. A magni aspernatur ipsa? Magni, odio asperiores ex sapiente nam debitis odit facilis labore dolore necessitatibus veniam. Reprehenderit eveniet tempore omnis nobis sapiente magni ab rem, eos ex modi officiis pariatur quibusdam quam deleniti perspiciatis rerum animi quidem. Nesciunt deleniti animi, quidem doloribus corrupti, sapiente mollitia provident est optio aperiam soluta dicta eos magni.
+                </p>
+            </div>
+            <div class="notice">
+                <h1 class="anotherh1">Notice Board</h1>
+                <ul>
+                    <li><a href="#">Notice 1 - (Lorem ipsum dolor sit amet)</a></li>
+                    <li><a href="#">Notice 2 - (Lorem ipsum dolor sit amet)</a></li>
+                    <li><a href="#">Notice 3 - (Lorem ipsum dolor sit amet)</a></li>
+                    <li><a href="#">Notice 4 - (Lorem ipsum dolor sit amet)</a></li>
+                    <li><a href="#">Notice 5 - (Lorem ipsum dolor sit amet)</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="service clearfix"> 
+            <h1 class="duplicateh1">Our Services</h1>
+            <div class="block1">
+                <i class="far fa-edit"></i>
+                <h3 class="anothertag">Web design</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, quidem dolorum error, a ratione quas, delectus ad dignissimos fugit!</p>
+            </div>
+            <div class="block2">
+                <i class="far fa-edit"></i>
+                <h3 class="anothertag1">Graphics Design</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, quidem dolorum error, a ratione quas, delectus ad dignissimos fugit!</p>
+            </div>
+            <div class="block3">
+                <i class="far fa-edit"></i>
+                <h3 class="anothertag2">Digital Marketing</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, quidem dolorum error, a ratione quas, delectus ad dignissimos fugit!</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p class="anotherp">All Right Rserved by Adnan Akram</p>
+        </div>
+    </div>
+</html>

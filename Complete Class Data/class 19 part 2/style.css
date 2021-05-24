@@ -1,0 +1,33 @@
+.main-menu{
+    text-align: center;
+}
+.main-menu li{
+    display: inline-block;
+    margin-left: -5px;
+}
+.main-menu li a{
+    padding: 10px 35px;
+    background-color: rgb(87, 45, 238);
+    display: inline-block;
+    color: #ffff;
+    border: 1px solid red;
+}
+
+.main-menu li a:hover{
+    background-color: rgb(5, 41, 117);
+    transition: .3s;
+    border-color: rgb(172, 4, 4);
+}
+.another{
+    text-align: center;
+    color: rgb(182, 14, 106);
+    background-image: url(https://i.ibb.co/GCMKR4d/Banner.webp);
+    padding: 200px 0;
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.test{
+    height: 500px;
+}

@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>class 7</title>
+    </head>
+    <body>
+        <h1> This Is A From</h1>
+        <form action="#">
+            <input type="text" placeholder="Type your name"> <br>
+            <input type="email" placeholder="Type your email"> <br>
+            <input type="password" placeholder="Type your password"> <br>
+            <input type="number" placeholder="Type your number"> <br>
+            <select name="" id="">
+                <option value="Dhaka">Dhaka</option>
+                <option value="Other">Other</option>
+            </select> <br>
+            <input type="number" placeholder="Type your zip code"> <br>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="Female">Female <br>
+
+            <input type="checkbox" name="service" value="Html">Html
+            <input type="checkbox" name="service" value="Css">Css <br>
+
+            <input type="file"> <br>
+            <textarea name="" id="" placeholder="Type comment"></textarea> <br>
+            <input type="submit" value="Submit data">
+            <input type="reset" value="Reset all">
+        </form>
+    </body>
+</html>

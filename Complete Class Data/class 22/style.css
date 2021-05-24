@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.h2tag{
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+}
+.h2tag::before{
+    content: ' First-hardworking ';
+}
+.h2tag::after{
+    content: ' Success-Last ';
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    color: brown;
+}
+p::before{
+    content: ' " ';
+}
+p::after{
+    content: ' " ';
+}
+.h1tag{
+    text-align: center;
+    color: rgb(199, 59, 59);
+    margin-top: 15px;
+}
+.h1tag::before{
+    content: '\f08d';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 550;
+    color: red;
+    margin-right: 8px;
+}
+.h1tag::after{
+    content: '\f08d';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 550;
+    color: red;
+    margin-left: 8px;
+}
+.button-div{
+    text-align: center;
+    margin-top: 40px;
+}
+.button{
+    color: white;
+    background-color: #0984e3;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    border-radius: 15px;
+    position: relative;
+    ;
+    z-index: 1;
+
+}
+.button::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #009432;
+    border-radius: 15px;
+    z-index: -1;
+
+    transition: .4s;
+}
+.button:hover::before{
+    width: 100%;
+}
+.another-h1{
+    color: #ddd;
+    background-color: #B53471;
+    font-size: 33px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.another-h2{
+    color: #ddd;
+    background-color: #009432;
+    font-size: 33px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+ul{
+    margin-left: 50px;
+    list-style-type: none;
+}
+.li-1{
+    font-size: 25px;
+    margin-top: 5px;
+}
+.li-1::before{
+    content: '\f35a';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 550;
+    margin-right: 10px;
+    color: tomato;
+}
+.li-2{
+    font-size: 25px;
+    margin-top: 5px;
+}
+.li-2::before{
+    content: '\f101';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    margin-right: 10px;
+    color: orange;
+}

@@ -1,0 +1,3 @@
+.pix-header.pix-is-sticky-header.sticky-top.pix-header-desktop.d-inline-block.pix-header-normal.pix-scroll-shadow.header-scroll.pix-header-container-area.is-scroll.bg-white.pix-normal-sticky a.btn-outline-primary {
+    background: red;
+}

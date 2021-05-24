@@ -1,0 +1,62 @@
+<main>
+	<div>
+          <a href="#" class="link-hbtn1 bob-on-hover-hbtn2">COMECE AGORA
+      </a>
+        </div
+</main>
+
+.link-hbtn1{
+	padding: 20px 80px;
+	display: inline-block;
+	color: #fff;
+	background: #eb164c;
+    font-weight: 600;
+    letter-spacing: 2px !important;
+    text-decoration: none;
+    border-radius: 60px;
+    font-size: 14px;  
+}
+
+.link-hbtn1:hover{
+	text-decoration: none;
+	color: #fff;
+    background: #25283d;
+}
+
+
+@keyframes bob-on-hover-hbtn2 {
+  0% {
+    transform: translateY(-8px);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: translateY(-8px);
+  }
+}
+@-webkit-keyframes bob-on-hover{
+  100% {
+    transform: translateY(-8px);
+  }
+}
+@keyframes bob-on-hover{
+  100% {
+    transform: translateY(-8px);
+  }
+}
+.bob-on-hover-hbtn2 {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.bob-on-hover-hbtn2:hover, .bob-on-hover-hbtn2:focus, .bob-on-hover-hbtn2:active {
+  animation-name: bob-on-hover, bob-on-hover-hbtn;
+  animation-duration: .3s, 1.5s;
+  animation-delay: 0s, .3s;
+  animation-timing-function: ease-out, ease-in-out;
+  animation-iteration-count: 1, infinite;
+  animation-fill-mode: forwards;
+  animation-direction: normal, alternate;
+}

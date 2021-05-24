@@ -1,0 +1,560 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+    <title>Youtube page made by_Rayhan</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+    <section class="header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="header-top-left d-flex">
+              <a href="#"> <span><i class="fas fa-bars"></i></span> </a>
+              <div class="youtube-icon d-flex">
+                <a href="#"> <span><i class="fab fa-youtube"></i></span> </a>
+                <h4>YouTube</h4>
+                <p>BD</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="header-top-middle text-center">
+              <form action="#">
+                <input type="text" placeholder="Search" class="h-form form-control float-left">
+                <a type="submit" href="#"> <span><i class="fas fa-search"></i></span> </a>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="header-top-right d-flex justify-content-end mr-4">
+              <a href="#"> <span><i class="fas fa-video"></i></span> </a>
+              <a href="#"> <span><i class="fa fa-th"></i></span> </a>
+              <a href="#"> <span><i class="fa fa-bell"></i></span> </a>
+              <a href="#"> <p>6</p> </a>
+              <a href="#"> <img src="./img/index.jpg" alt=""> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <section class="content-left-right">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-2 pl-0 pr-0">
+              <div class="content-left">
+                <div class="content-left-box">
+                  <ul>
+                    <li><a href="#"> <span><i class="fas fa-home"></i></span> Home </a></li>
+                    <li><a href="#"> <span><i class="fas fa-fire"></i></span> Trending </a></li>
+                    <li><a href="#"> <span><i class="fab fa-youtube"></i></span> Subscriptions </a></li>
+                  </ul>
+                  <hr>
+                </div>
+
+                <div class="content-left-box-1">
+                  <ul>
+                    <li><a href="#"> <span><i class="fas fa-window-restore"></i></span> Library </a></li>
+                    <li><a href="#"> <span><i class="fas fa-history"></i></span> History </a></li>
+                    <li><a href="#"> <span><i class="fas fa-play"></i></span> Your Videos </a></li>
+                    <li><a href="#"> <span><i class="fas fa-clock"></i></span> Watch later </a></li>
+                    <li><a href="#"> <span><i class="fas fa-thumbs-up"></i></span> Liked Videos </a></li>
+                  </ul>
+                  <hr>
+                </div>
+
+                <div class="content-left-box-1">
+                  <ul>
+                    <li><a href="#"> <img src="./img/news.jpg" alt="">  SOMOY TV <span><i class="fas fa-satellite-dish"></i></span> </a></li>
+                    <li><a href="#"> <img src="./img/unnamed.jpg" alt="">  Hasan Vlogs <strong><i class="fas fa-circle"></i></strong></a></li>
+                    <li><a href="#"> <img src="./img/jillurvai.jpg" alt="">  Developer Jillur <strong><i class="fas fa-circle"></i></strong></a></li>
+                    <li><a href="#"> <img src="./img/ztv.jpg" alt=""> CD CHOICE Drama <strong><i class="fas fa-circle"></i></strong> </a></li>
+                    <li><a href="#"> <img src="./img/u.jpg" alt=""> RP Jannat Shrity  </a></li>
+                    <li><a href="#"> <span><i class="fas fa-thumbs-up"></i></span> Browse Channels </a></li>
+                  </ul>
+                  <hr>
+                </div>
+
+                <div class="content-left-box-1">
+                  <ul>
+                    <li><h5>More from YouTube</h5></li>
+                    <li><a href="#"> <span><i class="fas fa-gamepad"></i></span> Gaming </a></li>
+                    <li><a href="#"> <span><i class="fas fa-procedures"></i></span> Live </a></li>
+                  </ul>
+                  <hr>
+                </div>
+
+                <div class="content-left-box-1">
+                  <ul>
+                    <li><a href="#"> <span><i class="fas fa-cog"></i></span> Setting </a></li>
+                    <li><a href="#"> <span><i class="fas fa-flag"></i></span> Report history </a></li>
+                    <li><a href="#"> <span><i class="fas fa-question-circle"></i></span> Help </a></li>
+                    <li><a href="#"> <span><i class="fas fa-comment"></i></span> Send feedback </a></li>
+                  </ul>
+                  <hr>
+                </div>
+
+                <div class="content-left-box-1">
+                  <ul>
+                    <li><a href="#"> <p>About Press Copyright Contact us Creators Advertise Developers</p> </a></li>
+                    <li><a href="#"> <p>Terms Privacy Policy & Safety How YouTube works Test new features</p> </a></li>
+                    <li><a href="#"> <h6> &copy; 2020 Google LLC <span>_Rayhan</span></h6></a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-lg-10">
+
+              <div class="row">
+                <div class="col">
+                  <div class="header-bottom">
+                    <a href="#">All</a>
+                    <a href="#">WordPress</a>
+                    <a href="#">Website</a>
+                    <a href="#">Natok</a>
+                    <a href="#">Web Development</a>
+                    <a href="#">Cricket</a>
+                    <a href="#">Telugu chinema</a>
+                    <a href="#">Computers</a>
+                    <a href="#">Live</a>
+                    <a href="#">Wholesaling</a>
+                    <a href="#">Graphics Design</a>
+                    <a href="#"> <span><i class="fas fa-angle-right"></i></span> </a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="content-right d-flex">
+
+                  <div class="col-lg-3">
+                    <div class="youtube-song-item">
+                      <img src="./img/golo.jpg" alt="">
+                      <div class="img-info d-flex">
+                        <img src="./img/jillurvai.jpg" alt="">
+                        <div class="img-content">
+                          <h4>Day - 45 || Create Corporate/Business Website for clients, Explain every single </h4>
+                          <p>Developer Jillur</p>
+                          <p>665 views 3 hours ago</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3">
+                    <div class="youtube-song-item">
+                      <img src="./img/imga2.png" alt="">
+                      <div class="img-info d-flex">
+                        <img src="./img/moto.jpg" alt="">
+                        <div class="img-content">
+                          <h4>Day - 45 || Create Corporate/Business Website for clients, Explain every single </h4>
+                          <p>Developer Jillur</p>
+                          <p>665 views 3 hours ago</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3">
+                    <div class="youtube-song-item">
+                      <img src="./img/imga3.png" alt="">
+                      <div class="img-info d-flex">
+                        <img src="./img/news.jpg" alt="">
+                        <div class="img-content">
+                          <h4>Day - 45 || Create Corporate/Business Website for clients, Explain every single </h4>
+                          <p>Developer Jillur</p>
+                          <p>665 views 3 hours ago</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3">
+                    <div class="youtube-song-item">
+                      <img src="./img/imga4.png" alt="">
+                      <div class="img-info d-flex">
+                        <img src="./img/index.jpg" alt="">
+                        <div class="img-content">
+                          <h4>Day - 45 || Create Corporate/Business Website for clients, Explain every single </h4>
+                          <p>Developer Jillur</p>
+                          <p>665 views 3 hours ago</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="content-right .ray-border d-flex">
+                  <div class="col-lg-3">
+                    <div class="youtube-song-item">
+                      <img src="./img/imga5.png" alt="">
+                      <div class="img-info d-flex">
+                        <img src="./img/unnamed.jpg" alt="">
+                        <div class="img-content">
+                          <h4>Day - 45 || Create Corporate/Business Website for clients, Explain every single </h4>
+                          <p>Developer Jillur</p>
+                          <p>665 views 3 hours ago</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="youtube-song-item">
+                      <img src="./img/imga6.png" alt="">
+                      <div class="img-info d-flex">
+                        <img src="./img/ztv.jpg" alt="">
+                        <div class="img-content">
+                          <h4>Day - 45 || Create Corporate/Business Website for clients, Explain every single </h4>
+                          <p>Developer Jillur</p>
+                          <p>665 views 3 hours ago</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="youtube-song-item">
+                      <img src="./img/imga7.png" alt="">
+                      <div class="img-info d-flex">
+                        <img src="./img/u.jpg" alt="">
+                        <div class="img-content">
+                          <h4>Day - 45 || Create Corporate/Business Website for clients, Explain every single </h4>
+                          <p>Developer Jillur</p>
+                          <p>665 views 3 hours ago</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="youtube-song-item">
+                      <img src="./img/imga8.png" alt="">
+                      <div class="img-info d-flex">
+                        <img src="./img/Ts.jpg" alt="">
+                        <div class="img-content">
+                          <h4>Day - 45 || Create Corporate/Business Website for clients, Explain every single </h4>
+                          <p>Developer Jillur</p>
+                          <p>665 views 3 hours ago</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+
+                <div class="letest-items d-flex">
+                  <div class="col-lg-3 mr-3">
+                          <div class="letest-item">
+                            <div class="letest-tittle">
+                              <img class="float-left" src="./img/news.jpg" alt="">
+                              <p>Somoy TV . 23 minutes ago</p>
+                            </div>
+                          <div class="letest-body d-flex">
+                              <div class="body-content-d">
+                                <h4>The Letest news Watch Now-</h4>
+                              <a href="#">https://youtube.be/UWvPXQLbg2o</a>
+                              </div>
+                              <img class="" src="./img/imga17.png" alt="">
+                            </div>
+                            <div class="letest-footer d-flex justify-content-between">
+                              <div class="left-icon">
+                                <a class="bobita" href="#"><span><i class="fas fa-thumbs-up"></i></span> 45k </a>
+                                <a class="sumaiya ml-3" href="#"><span><i class="fas fa-thumbs-down"></i></span> 34k </a>
+                              </div>
+                              <div class="right-icon">
+                                <a class="annika" href="#"><span><i class="fas fa-comment"></i></span>34k</a>
+                                <a class="liza" href="#"><span><i class="fas fa-ellipsis-v"></i></span></a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                  <div class="col-lg-3 mr-3">
+                          <div class="letest-item">
+                            <div class="letest-tittle">
+                              <img class="float-left" src="./img/news.jpg" alt="">
+                              <p>Somoy TV . 23 minutes ago</p>
+                            </div>
+                          <div class="letest-body d-flex">
+                              <div class="body-content-d">
+                                <h4>The Letest news Watch Now-</h4>
+                              <a href="#">https://youtube.be/UWvPXQLbg2o</a>
+                              </div>
+                              <img class="" src="./img/imga16.png" alt="">
+                            </div>
+                            <div class="letest-footer d-flex justify-content-between">
+                              <div class="left-icon">
+                                <a class="bobita" href="#"><span><i class="fas fa-thumbs-up"></i></span> 45k </a>
+                                <a class="sumaiya ml-3" href="#"><span><i class="fas fa-thumbs-down"></i></span> 34k </a>
+                              </div>
+                              <div class="right-icon">
+                                <a class="annika" href="#"><span><i class="fas fa-comment"></i></span>34k</a>
+                                <a class="liza" href="#"><span><i class="fas fa-ellipsis-v"></i></span></a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                  <div class="col-lg-3 mr-3">
+                          <div class="letest-item">
+                            <div class="letest-tittle">
+                              <img class="float-left" src="./img/news.jpg" alt="">
+                              <p>Somoy TV . 23 minutes ago</p>
+                            </div>
+                          <div class="letest-body d-flex">
+                              <div class="body-content-d">
+                                <h4>The Letest news Watch Now-</h4>
+                              <a href="#">https://youtube.be/UWvPXQLbg2o</a>
+                              </div>
+                              <img class="" src="./img/imga12.png" alt="">
+                            </div>
+                            <div class="letest-footer d-flex justify-content-between">
+                              <div class="left-icon">
+                                <a class="bobita" href="#"><span><i class="fas fa-thumbs-up"></i></span> 45k </a>
+                                <a class="sumaiya ml-3" href="#"><span><i class="fas fa-thumbs-down"></i></span> 34k </a>
+                              </div>
+                              <div class="right-icon">
+                                <a class="annika" href="#"><span><i class="fas fa-comment"></i></span>34k</a>
+                                <a class="liza" href="#"><span><i class="fas fa-ellipsis-v"></i></span></a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                  <div class="col-lg-3 mr-0">
+                          <div class="letest-item">
+                            <div class="letest-tittle">
+                              <img class="float-left" src="./img/news.jpg" alt="">
+                              <p>Somoy TV . 23 minutes ago</p>
+                            </div>
+                          <div class="letest-body d-flex">
+                              <div class="body-content-d">
+                                <h4>The Letest news Watch Now-</h4>
+                              <a href="#">https://youtube.be/UWvPXQLbg2o</a>
+                              </div>
+                              <img class="" src="./img/imga2.png" alt="">
+                            </div>
+                            <div class="letest-footer d-flex justify-content-between">
+                              <div class="left-icon">
+                                <a class="bobita" href="#"><span><i class="fas fa-thumbs-up"></i></span> 45k </a>
+                                <a class="sumaiya ml-3" href="#"><span><i class="fas fa-thumbs-down"></i></span> 34k </a>
+                              </div>
+                              <div class="right-icon">
+                                <a class="annika" href="#"><span><i class="fas fa-comment"></i></span>34k</a>
+                                <a class="liza" href="#"><span><i class="fas fa-ellipsis-v"></i></span></a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+
+                  </div>
+              </div>
+                
+                    <div class="row">
+                      <div class="content-right d-flex">
+
+                        <div class="col-lg-3 pt-5">
+                          <div class="youtube-song-item">
+                            <img src="./img/imga9.png" alt="">
+                            <div class="img-info d-flex">
+                              <img src="./img/jillurvai.jpg" alt="">
+                              <div class="img-content">
+                                <h4>Day - 45 || Create Corporate/Business Website for clients, Explain every single </h4>
+                                <p>Developer Jillur</p>
+                                <p>665 views 3 hours ago</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-3 pt-5">
+                          <div class="youtube-song-item">
+                            <img src="./img/imga10.png" alt="">
+                            <div class="img-info d-flex">
+                              <img src="./img/moto.jpg" alt="">
+                              <div class="img-content">
+                                <h4>Day - 45 || Create Corporate/Business Website for clients, Explain every single </h4>
+                                <p>Developer Jillur</p>
+                                <p>665 views 3 hours ago</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-3 pt-5">
+                          <div class="youtube-song-item">
+                            <img src="./img/imga11.png" alt="">
+                            <div class="img-info d-flex">
+                              <img src="./img/news.jpg" alt="">
+                              <div class="img-content">
+                                <h4>Day - 45 || Create Corporate/Business Website for clients, Explain every single </h4>
+                                <p>Developer Jillur</p>
+                                <p>665 views 3 hours ago</p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+
+                      <div class="col-lg-3 pt-5">
+                      <div class="youtube-song-item">
+                        <img src="./img/imga12.png" alt="">
+                          <div class="img-info d-flex">
+                            <img src="./img/index.jpg" alt="">
+                              <div class="img-content">
+                                <h4>Day - 45 || Create Corporate/Business Website for clients, Explain every single </h4>
+                                <p>Developer Jillur</p>
+                                <p>665 views 3 hours ago</p>
+                              </div>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                    </div>
+
+                    <div class="row mt-0">
+                      <div class="content-right d-flex">
+
+                        <div class="col-lg-3">
+                          <div class="youtube-song-item">
+                            <img src="./img/imga13.png" alt="">
+                            <div class="img-info d-flex">
+                              <img src="./img/jillurvai.jpg" alt="">
+                              <div class="img-content">
+                                <h4>Day - 45 || Create Corporate/Business Website for clients, Explain every single </h4>
+                                <p>Developer Jillur</p>
+                                <p>665 views 3 hours ago</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                          <div class="youtube-song-item">
+                            <img src="./img/imga15.png" alt="">
+                            <div class="img-info d-flex">
+                              <img src="./img/moto.jpg" alt="">
+                              <div class="img-content">
+                                <h4>Day - 45 || Create Corporate/Business Website for clients, Explain every single </h4>
+                                <p>Developer Jillur</p>
+                                <p>665 views 3 hours ago</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                          <div class="youtube-song-item">
+                            <img src="./img/imga16.png" alt="">
+                            <div class="img-info d-flex">
+                              <img src="./img/news.jpg" alt="">
+                              <div class="img-content">
+                                <h4>Day - 45 || Create Corporate/Business Website for clients, Explain every single </h4>
+                                <p>Developer Jillur</p>
+                                <p>665 views 3 hours ago</p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+
+                      <div class="col-lg-3">
+                      <div class="youtube-song-item">
+                        <img src="./img/imga17.png" alt="">
+                          <div class="img-info d-flex">
+                            <img src="./img/index.jpg" alt="">
+                              <div class="img-content">
+                                <h4>Day - 45 || Create Corporate/Business Website for clients, Explain every single </h4>
+                                <p>Developer Jillur</p>
+                                <p>665 views 3 hours ago</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mt-0">
+                      <div class="content-right d-flex">
+
+                        <div class="col-lg-3">
+                          <div class="youtube-song-item">
+                            <img src="./img/imga18.png" alt="">
+                            <div class="img-info d-flex">
+                              <img src="./img/jillurvai.jpg" alt="">
+                              <div class="img-content">
+                                <h4>Day - 45 || Create Corporate/Business Website for clients, Explain every single </h4>
+                                <p>Developer Jillur</p>
+                                <p>665 views 3 hours ago</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                          <div class="youtube-song-item">
+                            <img src="./img/hq720.jpg" alt="">
+                            <div class="img-info d-flex">
+                              <img src="./img/moto.jpg" alt="">
+                              <div class="img-content">
+                                <h4>Day - 45 || Create Corporate/Business Website for clients, Explain every single </h4>
+                                <p>Developer Jillur</p>
+                                <p>665 views 3 hours ago</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                          <div class="youtube-song-item">
+                            <img src="./img/hqdefault.jpg" alt="">
+                            <div class="img-info d-flex">
+                              <img src="./img/news.jpg" alt="">
+                              <div class="img-content">
+                                <h4>Day - 45 || Create Corporate/Business Website for clients, Explain every single </h4>
+                                <p>Developer Jillur</p>
+                                <p>665 views 3 hours ago</p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+
+                      <div class="col-lg-3">
+                      <div class="youtube-song-item">
+                        <img src="./img/imga2.png" alt="">
+                          <div class="img-info d-flex">
+                            <img src="./img/index.jpg" alt="">
+                              <div class="img-content">
+                                <h4>Day - 45 || Create Corporate/Business Website for clients, Explain every single </h4>
+                                <p>Developer Jillur</p>
+                                <p>665 views 3 hours ago</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+           </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  </body>
+</html>

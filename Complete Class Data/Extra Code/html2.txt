@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropDown Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper clearfix">
+        <div class="header clearfix">
+            <div class="logo">
+                <img src="./img/logoFinal2.png" alt="">
+            </div>
+            <div class="menubar">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#">gellary</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="banner">
+            <h1>This is Heading Tag</h1>
+        </div>
+        <div class="content clearfix">
+            <div class="content-image">
+                <h1>This is Content Area</h1>
+                <img src="./images/scratch 1.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil totam voluptas aliquid dolorem ullam nesciunt ex aperiam quam consequatur repellendus culpa quibusdam, voluptatem quisquam. Quas in, sapiente fugiat libero iste dolore magni consectetur voluptatem? Numquam veniam mollitia dolorum explicabo ex eum? Rerum, necessitatibus molestiae eligendi reiciendis explicabo vitae debitis ea minima quaerat eum blanditiis ut aliquam saepe delectus magnam, odio aut sunt quo doloremque accusamus? At, ab nam explicabo accusantium omnis cumque soluta dolore amet repudiandae quidem quae aut nihil consectetur, alias recusandae voluptate ea molestiae quaerat assumenda a suscipit deserunt maiores tempora? Voluptatum qui debitis perferendis eligendi quis animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet numquam consequuntur soluta, dolorum doloremque tenetur quo minus. Natus aut ipsa amet possimus fuga corrupti deserunt! Nisi asperiores unde debitis voluptatem aliquid perferendis, nulla tempore. Natus cumque suscipit molestias dignissimos pariatur maxime accusamus corporis laboriosam, eaque sequi architecto? Ab ex, in amet ullam neque enim dolorem sapiente officia minima quas, porro quam fuga mollitia asperiores maxime quae dolores nostrum deserunt explicabo aliquid quisquam ut vitae. At, architecto unde ex, in dolorem vel corrupti tempore cupiditate doloribus quod amet deserunt perferendis, quis iure hic delectus itaque culpa. Inventore ad, ab veniam impedit, eveniet in nostrum cupiditate enim quo expedita quod. Dolor voluptates soluta, provident error reiciendis doloremque et excepturi aspernatur id non, voluptatem porro. Pariatur deleniti soluta possimus ducimus tenetur cum qui, nobis, libero maxime consequuntur reiciendis officia nihil totam? Cumque itaque et soluta repellendus dignissimos veritatis quia iusto accusantium in! A maiores impedit nesciunt expedita eveniet, ad esse beatae dolore rem qui incidunt ex odio, sed temporibus quia repudiandae architecto. Laudantium, ut. Fugiat quas cumque, ipsa reprehenderit sed maiores ad harum eveniet? Reprehenderit blanditiis ullam corrupti voluptatem eius autem cum accusantium debitis eum dolores molestias corporis molestiae ipsum odit, fugit maiores.</p>
+            </div>
+            <div class="content-list">
+                <h1>Notice Board</h1>
+                <ul>
+                    <li><a href="#">Notice1 Lorem ipsum dolor sit </a></li>
+                    <li><a href="#">Notice2 Lorem ipsum dolor sit </a></li>
+                    <li><a href="#">Notice3 Lorem ipsum dolor sit </a></li>
+                    <li><a href="#">Notice4 Lorem ipsum dolor sit </a></li>
+                    <li><a href="#">Notice5 Lorem ipsum dolor sit </a></li>
+                    <li><a href="#">Notice6 Lorem ipsum dolor sit </a></li>
+                    <li><a href="#">Notice7 Lorem ipsum dolor sit </a></li>
+                    <li><a href="#">Notice8 Lorem ipsum dolor sit </a></li>
+                    <li><a href="#">Notice9 Lorem ipsum dolor sit </a></li>
+                    <li><a href="#">Notice10 Lorem ipsum dolor sit </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="promo clearfix">
+            <div class="promoDesign clearfix">
+                <h1>Our Services</h1>
+                <div class="webDesign basicDesign">
+                    <h2>Web Design & Development</h2>
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Logo Design</a></li>
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">Javascript</a></li>
+                        <li><a href="#">PHP</a></li>
+                    </ul>
+                </div>
+                <div class="videoCreate basicDesign">
+                    <h2>Vide Create & Making</h2>
+                    <ul>
+                        <li><a href="#">Video Creating</a></li>
+                        <li><a href="#">Video Making</a></li>
+                        <li><a href="#">Video VFX</a></li>
+                        <li><a href="#">Video Animation</a></li>
+                        <li><a href="#">Video Editing</a></li>
+                    </ul>
+                </div>
+                <div class="cpaMark basicDesign">
+                    <h2>Photoshop Course</h2>
+                    <ul>
+                        <li><a href="#">Photoshop CC 2020</a></li>
+                        <li><a href="#">Photoshop Beginners Mastery</a></li>
+                        <li><a href="#">Zero to Hero in Photoshop.</a></li>
+                        <li><a href="#">Adobe Lightroom CC</a></li>
+                        <li><a href="#">Photo Editing Masterclass</a></li>
+                        <li><a href="#">Photoshop illustrator</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <footer><p>© All Right Reserved by Md Arif</p></footer>
+        </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.maindiv{
+    width: 800px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 30px auto;
+    text-align: center;
+}
+
+/*  Hover Effect  */
+
+
+.hoverdiv{
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+.hoverdiv img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.hoverinnter h2{
+    margin-top: 185px;
+    font-size: 30px;
+}
+.hoverinnter{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    text-align: center;
+    width: 0;
+    height: 0;
+    background-color: rgba(218, 46, 46,.50);
+    visibility: hidden;
+    transition: .5s;
+    opacity: 0;
+}
+
+.hoverdiv:hover .hoverinnter{
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+}

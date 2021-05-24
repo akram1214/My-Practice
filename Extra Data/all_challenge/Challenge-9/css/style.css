@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.google_top ul {
+    list-style: none;
+}
+
+.google_top ul li {
+    display: inline-block;
+    padding: 13px 6px;
+}
+
+.google_top ul li a {
+    font-size: 13px;
+    display: inline-block;
+    color: #666666;
+}
+
+.google_top {
+    padding: 0 25px;
+}
+
+.google_top ul li:last-child a {
+    padding: 3px 10px;
+    background: linear-gradient(#4387fd, #4683ea) repeat scroll 0 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.google_top img {
+    position: relative;
+    top: -3px;
+}
+
+.google_logo {
+    background: url(../images/google_logo.png) no-repeat center center;
+    position: relative;
+    width: 300px;
+    height: 100px;
+    background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+
+.google_logo p {
+    position: absolute;
+    bottom: -16px;
+    right: 0;
+    font-size: 16px;
+    color: #4285f4;
+}
+
+.google_src {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#search {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    margin-top: 25px;
+}
+
+#search:hover {
+    border: 1px solid #b9b9b9;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+}
+
+.google_src .forms {
+    position: relative;
+}
+
+.submit_button {
+    position: absolute;
+    top: 28px;
+    right: 5px;
+    background: transparent;
+    border: none;
+}
+
+.submit_btn:focus,
+.submit_btn:active {
+    border: none;
+    outline: none;
+}
+
+.sumit_btn_2 {
+    color: #757575;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 4px;
+    padding: 8px 20px;
+    text-align: center;
+    display: inline-block;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    margin-top: 35px;
+}
+
+.sumit_btn_2:focus,
+.sumit_btn_2:active {
+    border: 1px solid #f2f2f2;
+    outline: none;
+}
+
+.sumit_btn_2:hover {
+    background: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;
+}
+
+.google_src p {
+    margin-top: 25px;
+    font-size: 13px;
+    color: #666;
+}
+
+.google_src p a {
+    color: #1122CC;
+    margin-left: 10px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer_content ul {
+    margin: 0;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    align-items: center;
+    padding: 10px 25px;
+
+}
+
+.footer_content ul li {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.footer_content ul li a {
+    font-size: 13px;
+    color: #666666;
+}

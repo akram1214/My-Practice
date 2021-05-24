@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.maindiv{
+    width: 1024px;
+    margin: 10px auto;
+    background-color: #1277c8;
+    box-shadow: 1px 1px 10px rgb(17, 17,17);
+}
+
+/*  header part  */
+
+.header{
+    background-color: #2153a2;
+}
+.logo{
+    width: 30%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.logo img{
+    height: 58px;
+    margin-top: 2px;
+    position: absolute;
+    top: 0px;
+    left: 32px;
+}
+.menu{
+    width: 70%;
+    float: right;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+    border-right: 1px solid black;
+}
+.menu ul li:first-child{
+    border-left: 1px solid black;
+}
+.menu ul li a{
+    padding: 20px 30px;
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu ul li:hover a{
+    background-color: #133268;
+}
+.fast-h2{
+    position: absolute;
+    top: 7px;
+    right: 43px;
+    color: rgb(245, 245, 245);
+    font-size: 36px;
+}
+.banner{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/358/554/non_2x/work-time-in-office-banner-vector.jpg);
+    padding: 100px 0;
+    background-position: center;
+    background-size: 100%;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: midnightblue;
+    border: 1px solid black;
+    display: inline-block;
+}
+/*  Container  */
+
+.container{
+    width: 70%;
+    float: left;
+}
+.container img{
+    width: 197px;
+    height: 166px;
+    float: left;
+    margin: 2px 4px;
+}
+p{
+    color: #ddd;
+    line-height: 22px;
+    text-align: justify;
+    font-size: 17px;
+    margin-top: 2px;
+}
+.notice{
+    width: 30%;
+    float: right;
+}
+.notice ul{
+    list-style: none;
+    margin-left: 15px;
+}
+.notice ul li::before{
+    content: "\f0a1";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 5px;
+}
+.notice ul li a{
+    color: #ddd;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px 0;
+}
+.anotherh1{
+    text-align: center;
+    display: block;
+    margin: 5px 0;
+    margin-left: 15px;
+}
+/* Service */
+
+.duplicateh1{
+    color: midnightblue;
+    text-align: center;
+    display: block;
+
+}
+.block1{
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid darkred;
+}
+i{
+    color: red;
+    text-align: center;
+}
+.anothertag{
+    color: midnightblue;
+    display: inline-block;
+    padding: 10px;
+}
+.block2{
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid darkred;
+}
+.anothertag1{
+    color: midnightblue;
+    display: inline-block;
+    padding: 10px;
+}
+.block3{
+    width: 30%;
+    float: right;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid darkred;
+}
+.anothertag2{
+    color: midnightblue;
+    display: inline-block;
+    padding: 10px;
+}
+.footer{
+    background-color: #2153a2;
+    width: 100%;
+}
+.anotherp{
+    text-align: center;
+    padding: 10px;
+    display: block;
+}

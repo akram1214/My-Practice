@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title> class 6 (Attibute) </title>
+    </head>
+
+    <body>
+        <h1 title="akram hoshen">this is heading tag</h1>
+        <h3 class="">this is heading tag</h3>
+        <p id="akram"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nulla velit. Praesentium,
+         fugit quis. Quas, ullam consequatur. Expedita magnam tempore vitae doloribus laboriosam, 
+         quisquam, inventore quibusdam, vel enim consectetur quod!</p>
+         <a target="_blank" href="http://www.google.com">Vsite my site</a>
+         <img src="https://images.app.goo.gl/3UgBYgb83rcgLPJx7" alt="">
+        
+     </body>
+</html>

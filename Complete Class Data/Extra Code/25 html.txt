@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+    <!-- ===============  Header section Start==================== -->
+      <div class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="#">
+                <img src="https://pngimg.com/uploads/google/google_PNG19631.png" alt="">
+              </a>
+            </div>
+            <div class="col-md-7">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Our service</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+ <!-- ===============  Header section End==================== -->
+
+
+
+
+
+
+ <!-- ===============  Banner section Start==================== -->
+      <div class="banner text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+                <h2>Welcome to our website</h2>
+                <h1>It's day 24 practice class </h1>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-- ===============  Banner section End==================== -->
+
+
+
+
+
+       <!-- ===============  About section Start==================== -->
+      <div class="about text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+                 <h1>About us</h1>
+                <p tcenter="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet accusamus modi maiores cumque saepe veritatis deserunt est neque corporis aperiam sed qui sint quis nam onem nobis quos corrupti perferendis sed tenetur quod accusamus velit qui incidunt!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-- ===============  About section End==================== -->
+
+
+
+
+
+       <!-- ===============  Service section Start==================== -->
+      <div class="service  ">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3  text-center">
+                <span><i class="far fa-lightbulb"></i></span>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi amet necessitatibus rem!</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <span><i class="far fa-lightbulb"></i></span>
+                <h2>Graphics Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi amet necessitatibus rem!</p>
+            </div>
+            <div class="col-md-3  text-center">
+                <span><i class="far fa-lightbulb"></i></span>
+                <h2>Digital Marketing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi amet necessitatibus rem!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-- ===============  Service section End==================== -->
+
+
+
+
+
+       <!-- ===============  Content section Start==================== -->
+      <div class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+                <div class="bloger ">
+                  <img src="https://starsunfolded.com/wp-content/uploads/2013/08/Salman-Khan-picsss.jpg" alt="">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci minus velit autem quaerat magni neque at delectus esse incidunt fuga iure iusto distinctio doloremque necessitatibus, modi odit ex. Eligendi distinctio error accusantium ipsum voluptate eaque excepturi praesentium temporibus accusamus obcaecati laborum, adipisci velit assumenda itaque cupiditate impedit aliquam autem. Reiciendis animi, laboriosam perferendis consectetur rerum dolore earum eaque exercitationem aperiam illum dolores praesentium placeat sit saepe quam est, optio vitae architecto! Dolores cumque quae sunt odio reprehenderit nisi eveniet nulla?</p>
+                </div>
+                <div class="bloger">
+                  <img src="https://media.newstracklive.com/uploads/entertainment-news/bollywood-news/Oct/09/big_thumb/shahrukh-khan-3_5d9d67dabfef5.jpg" alt="">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci minus velit autem quaerat magni neque at delectus esse incidunt fuga iure iusto distinctio doloremque necessitatibus, modi odit ex. Eligendi distinctio error accusantium ipsum voluptate eaque excepturi praesentium temporibus accusamus obcaecati laborum, adipisci velit assumenda itaque cupiditate impedit aliquam autem. Reiciendis animi, laboriosam perferendis consectetur rerum dolore earum eaque exercitationem aperiam illum dolores praesentium placeat sit saepe quam est, optio vitae architecto! Dolores cumque quae sunt odio reprehenderit nisi eveniet nulla?</p>
+                </div>
+             </div>
+            <div class="col-md-4">
+                <h1>Notice........</h1>
+                <ol>
+                    <li>notice</li>
+                    <li>notice</li>
+                    <li>notice</li>
+                    <li>notice</li>
+                </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-- ===============  Content section End==================== -->
+
+
+
+
+
+       
+        <!-- ===============  Footer section Start==================== -->
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+             
+              <h6> &copy; All Right reserved by AR Razu</h6>
+            </div>
+            <div class="col-md-5 sosial">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+     <!-- ===============  Fotter section End==================== -->
+  </body>
+</html>

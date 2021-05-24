@@ -1,0 +1,19 @@
+a#my_btn:hover {
+    box-shadow: 0 3px 50px 0 rgb(3 167 211 / 20%)!important;
+}
+a.btn#my_btn {
+    background: transparent;
+background-image: linear-gradient(
+90deg
+, #b8266f 0%, #f8626c 100%)!important;
+    border: 0px!important;
+}
+
+a#my_btn:hover {
+    box-shadow: 0 3px 50px 0 rgb(3 167 211 / 30%)!important;
+    background: transparent!important;
+    background-image: linear-gradient(
+90deg
+, #04a3d0 0%, #1e3f83 100%)!important;
+}
+    box-shadow: 0 3px 50px 0 rgb(230 81 108 / 22%);

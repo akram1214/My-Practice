@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.mid-content{
+    max-width: 1250px;
+    margin: auto;
+}
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header Saction */
+
+.header-section{
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 3px 0;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+}
+.header-section a {
+    color: #010101;
+}
+.header-logo{
+    width: 30%;
+}
+.header-logo img {
+    width: 60px;
+    float: left;
+    margin-right: 10px;
+}
+.header-logo span {
+    display: inline-block;
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+.header-menu{
+    width: 55%;
+}
+.primary-menu ul {
+    list-style: none;
+}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a{
+    display: block;
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 57px;
+}
+.header-button{
+    width: 15%;
+    text-align: right;
+}
+/* .header-button a {
+    border: 2px solid #6278df;
+    display: inline-block;
+    padding: 8px 15px;
+    color: #6278df;
+    margin-top: 9px;
+    border-radius: 12px;
+    font-size: 17px;
+    font-weight: 600;
+} */
+
+.header-btn {
+    border: 2px solid #6278df;
+    display: inline-block;
+    padding: 8px 15px;
+    color: #6278df!important;
+    margin-top: 9px;
+    border-radius: 12px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* DropDown Menu */
+
+.primary-menu ul li{
+    position: relative;
+}
+.primary-menu ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 250px;
+    background: #fff;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    transform: scaleY(0);
+    transform-origin: top center;
+}
+.primary-menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+
+/* Banner Section */
+
+.banner-section{
+    background-image: url(https://i.ibb.co/PmHFfFy/02.jpg);
+    padding: 150px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+
+    margin-top: 66px;
+
+    position: relative;
+    z-index: 9;
+}
+
+.banner-section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    background: rgba(0, 0, 0, .4);
+    z-index: -1;
+}
+.banner-content{}
+.banner-content h3{
+    font-size: 19px;
+    font-weight: 400;
+}
+.banner-content h2{
+    font-size: 42px;
+    margin: 20px 0;
+}
+.default-btn{
+    font-size: 16px;
+    color: #7d7d7d;
+    background: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: .4s;
+}
+.default-btn:hover{
+    background: #6278df;
+    color: #fff;
+}
+
+/* Banner Bottom */
+
+.banner-bottom{
+    background: #f7f9ff;
+    padding: 80px 0;
+}
+.left-content{
+    width: 48%;
+}
+.right-content{
+    width: 48%;
+}
+.right-content h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.right-content p{
+    font-size: 20px;
+    line-height: 1.6em;
+}
+/* Service Section */
+
+.service-section{
+    background: #fff;
+    padding: 80px 0;
+}
+.service-title{}
+.service-title h1{
+    font-size: 33px;
+    margin-bottom: 23px;
+}
+.service-title p{
+    font-size: 17px;
+    color: #767676;
+}
+
+/* Service Item */
+
+.service-item{
+    margin-top: 50px;
+}
+.service-box{
+    width: 31.3%;
+    box-shadow: 2px 2px 7px 0 rgba(0,0,0,.4);
+    margin-right: 2%;
+    margin-bottom: 23px;
+    padding: 18px;
+    box-sizing: border-box;
+}
+.s-icon{
+    width: 50px;
+    min-height: 93px;
+    float: left;
+    color: #6278df;
+    font-size: 30px;
+}
+.s-content{
+    margin-top: 3px;
+}
+.s-content h3{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.s-content p{
+    font-size: 23px;
+    color: #767676;
+}

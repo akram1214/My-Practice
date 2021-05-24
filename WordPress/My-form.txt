@@ -1,0 +1,20 @@
+<div class="row">
+
+<div class="col-md-6"><label class="w-100">Full name
+[text your-name class:pix-my-5 class:form-control class:bg-gray-1 class:shadow-0 placeholder "Akram Hoshen"]</label></div>
+
+<div class="col-md-6"><label class="w-100">Email address*
+[email* your-email class:pix-my-5 class:form-control class:bg-gray-1 class:shadow-0 placeholder "email@developerakram.com"]</label></div>
+</div>
+
+<label class="w-100">Write your message below[textarea your-message x4 class:pix-my-5 class:form-control class:bg-gray-1 class:shadow-0 placeholder "Your Message"] </label>
+
+<div class="row">
+
+<div class="col-md-6"><label class="w-100">Subject
+[text* Subject class:pix-my-5 class:form-control class:bg-gray-1 class:shadow-0 placeholder "Your Subject"]</label></div>
+
+<div class="col-md-6"><label class="w-100">Enter you phone number[tel* tel-996 class:pix-mt-5 class:form-control class:bg-gray-1 class:shadow-0 placeholder "Tel: +06 51 42 44 12"] </label></div>
+</div>
+
+[submit class:btn class:btn-gradient-primary class:text-white class:w-100 class:pix-mt-10 class:font-weight-bold class:btn-lg class:secondary-font "Submit form"]

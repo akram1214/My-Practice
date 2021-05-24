@@ -1,0 +1,148 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* Header Part */
+
+.header{
+    background: #3498db;
+}
+.header-logo img{
+    width: 200px;
+    height: auto;
+}
+.header-menu ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+.header-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-menu ul li a{
+    color: #fff;
+    padding: 0 25px;
+    font-size: 18px;
+    line-height: 66px;
+    border-right: 1px solid #fff;
+    display: block;
+    text-decoration: none;
+}
+.header-menu ul li:first-child a{
+    border-left: 1px solid #fff;
+}
+.header-menu ul li a:hover{
+    background-color: #2980b9;
+}
+
+/* Banner Part */
+
+.banner{
+    background-image: url(https://cdn.zeebiz.com/sites/default/files/2017/07/25/22103-hero-motocorp-official-website.jpg);
+    padding: 150px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-attachment: fixed;
+}
+.banner-caption h1{
+    font-size: 30px;
+    background: rgba(3, 83, 163, .4);
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 10px;
+    color: #fff;
+}
+.banner-caption h2{
+    background-color: rgba(3, 83, 163, .4);
+    padding: 10px 0;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 7px;
+    max-width: 445px;
+    margin: auto;
+    margin-top: 6px;
+    font-size: 27px;
+}
+
+/* About Part */
+
+.about{
+    background-color: #ecf0f1;
+}
+.about h2{
+    font-size: 25px;
+}
+.about p{
+    font-size: 15px;
+}
+
+/* Service Part */
+
+.service{
+    background: #f9f9f9;
+}
+.service span{
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(196, 15, 15);
+    border-radius: 0 20px;
+    margin: auto;
+    color: #fff;
+    line-height: 37px;
+    font-size: 24px;
+}
+.service h3 {
+    font-size: 25px;
+    padding: 8px 0;
+}
+.service p{
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+/* Product */
+
+.product-item{}
+.product-item img{
+    width: 240px;
+}
+.product-item p{
+    font-size: 15px;
+    font-style: oblique;
+    text-align: justify;
+}
+/* Notice */
+
+.product-notice{}
+.product-notice h2{
+    display: block;
+    font-size: 30px;
+    border-bottom: 1px solid #ddd;
+}
+.product-notice ul{
+    padding-left: 0;
+    list-style: none;
+}
+.product-notice ul li{
+    background: #f7f7f7;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+/* Footer */
+
+.footer{
+    background: #2c3e50;
+}
+.footer p{
+    margin-bottom: 0;
+}
+.footer a{
+    display: inline-block;
+    margin-left: 15px;
+    text-decoration: none;
+}

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>hi, I'm Akram</h2>
+    <h3>My age is 24 years old</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis dignissimos corrupti veritatis dolor obcaecati nobis placeat cum, totam possimus culpa alias velit! Nam delectus, ut inventore laborum enim mollitia illo.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis dignissimos corrupti veritatis dolor obcaecati nobis placeat cum, totam possimus culpa alias velit! Nam delectus, ut inventore laborum enim mollitia illo.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis dignissimos corrupti veritatis dolor obcaecati nobis placeat cum, totam possimus culpa alias velit! Nam delectus, ut inventore laborum enim mollitia illo.</p>
+</html>

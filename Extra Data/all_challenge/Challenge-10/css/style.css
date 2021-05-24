@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eeeeee;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.edu_result_area {
+
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 0 5px #d9d9d9;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.center_part {
+    width: 650px;
+    margin: 0 auto;
+}
+
+.edu_padding {
+    padding: 10px;
+}
+
+.logo {
+    width: 25%;
+    float: left;
+    background: #eeeeee;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px 0 0 10px;
+}
+
+.right_text {
+    width: 74%;
+    float: left;
+    background: #007814;
+    border-radius: 0 15px 0 0;
+    margin-left: 4px;
+    overflow: hidden;
+
+
+}
+
+.right_top_heading {
+    background: #007814 url(../images/flag.jpg) no-repeat scroll right bottom / 42% auto;
+    ;
+    padding: 7px 10px;
+    border-bottom: 1px solid #479e55;
+}
+
+.right_top_heading h2 {
+    color: #95e17d;
+    font-size: 20px;
+}
+
+.header_middle h4 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.header_middle {
+    border-bottom: 1px solid #ffffff;
+    padding: 4px 10px;
+}
+
+.heading_bottom {
+    background: url(../images/bottom_bg.jpg) repeat center center;
+    text-align: right;
+
+}
+
+.heading_bottom a {
+    font-size: 13px;
+    color: #fff;
+    padding: 4px 6px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.heading_bottom a:hover {
+    color: #00CC99;
+}
+
+.form_label {
+    width: 115px;
+    overflow: hidden;
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+}
+
+.label_left {
+    float: left;
+    padding: 5px;
+}
+
+.label_right {
+    float: right;
+    padding: 5px;
+}
+
+.fill {
+    width: 100%;
+    background: #f4f4f4;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.text_form {
+    width: 95%;
+}
+
+.form_list {
+    padding: 5px;
+}
+
+.form_start {
+    padding: 50px;
+    margin: 40px auto;
+    width: 380px;
+    border: 1px solid #848484;
+}
+
+.form_input {
+    float: right;
+    width: 245px;
+}
+
+.form_submit {
+    text-align: right;
+}
+
+.form_submit input {
+    padding: 1px 8px;
+}
+
+.frm_btn {
+
+    display: inline-block;
+}
+
+.right_bottom {
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.box_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f2f2f2;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+    border-top: 5px solid #86c775;
+}
+
+.left_bottom p {
+    font-size: 10px;
+    color: #666;
+}
+
+.powerd p {
+    font-size: 10px;
+    color: #666;
+    margin-right: 10px;
+}
+
+.left_bottom {
+    padding: 0 5px;
+}
+
+.bottom_left {
+    float: left;
+}
+
+.right_content {
+    float: left;
+    text-align: center;
+    font-size: 11px;
+    color: #000;
+    margin-left: 10px;
+}
+
+.bottom_last {
+    margin-top: 15px;
+}
+
+.right_content img {
+    height: 20px;
+    width: 18px;
+}

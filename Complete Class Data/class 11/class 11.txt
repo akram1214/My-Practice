@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>filup this form</h1>
+    <form action="">
+        <input placeholder="Name" type="text"> <br>
+        <input placeholder="Gmail" type="gmail"> <br>
+        <input placeholder="Number" type="number"> <br>
+        <input placeholder="Password" type="password"> <br>
+        <input type="submit">
+    </form>
+    <p style="color: rgb(191, 255, 14);background-color: rgb(248, 3, 3);font-size: 40px;text-align: center;">Naver share your negative judgements</p>
+    <h2>Class 11 Complete now</h2>
+</body>
+</html>

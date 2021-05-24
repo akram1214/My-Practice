@@ -1,0 +1,17 @@
+1. https://www.w3schools.com/
+2. https://codepen.io/
+3. https://fontawesome.com/
+4. https://flatuicolors.com/
+5. https://v5.getbootstrap.com/
+6. https://hackerthemes.com/bootstrap-cheatsheet/#verse2
+7. https://imgbb.com/
+8. http://apps.eky.hk/css-triangle-generator/
+9. https://www.creative-tim.com/cheatsheet/bootstrap4#verse2
+10. https://darekkay.com/dev/flexbox-cheatsheet.html
+11. https://yoksel.github.io/flex-cheatsheet/
+12. https://flexboxfroggy.com/
+13. https://github.com/
+14. https://cdnjs.com/
+15. https://www.siteground.com/
+16. https://pantheon.io/
+17. https://www.wpthemedetector.com/

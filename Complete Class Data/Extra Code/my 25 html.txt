@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div class="header">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4">
+                      <img src="./image/1601550974030.png" alt="">
+                  </div>
+                  <div class="col-md-8">
+                    <ul class="text-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Contract</a></li>
+                    </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="banner">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12 text-center">
+                    <h1>Welcome To Our Website</h1>
+                    <h2>It's Class 24 Practice</h2>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="about">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12 text-center">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed quisquam quis dicta explicabo libero sapiente ad provident amet nisi quas ab, fugiat similique debitis incidunt a maxime aliquid dolorum?</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="service">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-3 text-center p-4">
+                    <span><i class="far fa-lightbulb"></i></span>
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, assumenda?</p>
+                  </div>
+                  <div class="col-md-3 text-center p-4">
+                    <span><i class="far fa-lightbulb"></i></span>
+                    <h3>Graphics Design</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, assumenda?</p>
+                  </div>
+                  <div class="col-md-3 text-center p-4">
+                    <span><i class="far fa-lightbulb"></i></span>
+                    <h3>Digital Marketing</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, assumenda?</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="content-section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-8">
+                        <div class="content-item">
+                            <img src="./image/1570719510270_18.jpg" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor cumque nisi optio veniam magnam modi illum incidunt non qui? Error, iste. Iusto, et labore? Placeat iste a non vel quibusdam illo molestiae repellat rerum sed! Adipisci dolores ipsum a accusantium sunt libero minus quam! Reiciendis, iste eaque nostrum cumque iure reprehenderit! Eaque amet similique, quod quas doloribus itaque autem nesciunt magni ducimus est quo. Explicabo sapiente debitis ullam quidem id, numquam obcaecati necessitatibus ratione placeat ipsum sit accusantium ducimus, ex natus nesciunt, itaque molestias. Voluptatum ut fugiat aliquam, iure accusamus dolores? Reprehenderit eos totam error numquam ipsa. Repellendus, labore repudiandae!</p>
+                        </div>
+
+                        <div class="content-item">
+                            <img src="./image/1570719510270_18.jpg" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor cumque nisi optio veniam magnam modi illum incidunt non qui? Error, iste. Iusto, et labore? Placeat iste a non vel quibusdam illo molestiae repellat rerum sed! Adipisci dolores ipsum a accusantium sunt libero minus quam! Reiciendis, iste eaque nostrum cumque iure reprehenderit! Eaque amet similique, quod quas doloribus itaque autem nesciunt magni ducimus est quo. Explicabo sapiente debitis ullam quidem id, numquam obcaecati necessitatibus ratione placeat ipsum sit accusantium ducimus, ex natus nesciunt, itaque molestias. Voluptatum ut fugiat aliquam, iure accusamus dolores? Reprehenderit eos totam error numquam ipsa. Repellendus, labore repudiandae!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Notice...</h2>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                        </ul>
+                    </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+                    <p>&copy; All Right Reserved By Adnan Akram</p>
+                  </div>
+                  <div class="col-md-6">
+                    <ul class="social-menu">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                    </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </body>
+</html>

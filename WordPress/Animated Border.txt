@@ -1,0 +1,26 @@
+div.mine-class_id_hover_eff-098:hover .mine-class_id_hover_eff-100 a:after {
+    content: '';
+    width: 75px;
+    height: 3px;
+    background-image: linear-gradient(to right,#2da0e3,#4dbeec,#2da0e3);
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: 25px;
+}
+.mine-class_id_hover_eff-100 ::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-image: linear-gradient(to right,#2da0e3,#4dbeec,#2da0e3);
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    transition: all .3s ease-in-out;
+    bottom: 25px;
+    visibility: visible;
+    align-content: ;
+}
+div.mine-class_id_hover_eff-099:hover {
+    background-color: rgba(0, 0, 0, .3);
+}

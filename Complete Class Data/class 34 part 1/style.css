@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.responsive-test{
+    background: violet;
+    color: rgb(6, 231, 6);
+    font-size: 45px;
+}
+
+@media (max-width: 1200px){
+    .responsive-test{
+        background: green;
+        color: red;
+    }
+}
+
+@media (max-width: 768px){
+    .responsive-test{
+        background: yellow;
+        color: navy;
+        font-size: 25px;
+    }
+}

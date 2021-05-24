@@ -1,0 +1,77 @@
+h2{
+    background-color: blueviolet;
+}
+b{
+    background-color: #86f01b;
+    display: inline-block;
+    padding: 20px;
+}
+i{
+    background-color: chocolate;
+}
+u{
+    background-color: crimson;
+}
+d{
+    background-color: cyan;
+}
+mark{
+    background-color: darkblue;
+}
+small{
+    background-color: darkgreen;
+}
+strong{
+    background-color: darkorange;
+}
+code{
+    background-color: deeppink;
+}
+P{
+    background-color: gold;
+}
+.another-p{
+    background-color: greenyellow;
+}
+.div1{
+    background-color: indigo;
+}
+.a1{
+    background-color: magenta;
+    text-align: center;
+}
+img{
+    background-color: maroon;
+    text-align: center;
+}
+span{
+    background-color: orangered;
+}
+.another-div{
+    text-decoration: none;
+    text-align: center;
+}
+.another-div2{
+    background-color: rgb(41, 201, 185);
+    text-align: center;
+}
+.main-menu{
+    text-align: center;
+}
+.main-menu li{
+    display: inline-block;
+    margin-left: -5px;
+}
+.main-menu li a{
+    padding: 10px 20px;
+    background-color: rgb(87, 45, 238);
+    display: inline-block;
+    color: #ffff;
+    border: 1px solid red;
+}
+
+.main-menu li a:hover{
+    background-color: rgb(5, 41, 117);
+    transition: .3s;
+    border-color: rgb(172, 4, 4);
+}

@@ -1,0 +1,15 @@
+h2{
+   
+    font-size: 60px;
+    font-style: oblique;
+    font-family: 'Jost', sans-serif;
+}
+
+h3{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Jost', sans-serif;
+}

@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul,
+ol {
+    list-style: none;
+}
+
+.header_top .header_bg_pd .left-site img {
+    width: 112px;
+    height: 36px;
+}
+
+.header_top .header_bg_pd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_top {
+    background: #f1f1f1;
+    border: 1px solid #e5e5e5;
+    padding: 15px 40px;
+}
+
+.header_top .right_site a {
+    background: rgba(0, 0, 0, 0) linear-gradient(#4d90fd, #4787ee) repeat scroll 0 0;
+    border: 1px solid #2f5bb7;
+    border-radius: 2px;
+    padding: 2px 10px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.header_top .right_site a:hover {
+    background: linear-gradient(#4D90FE, #357AE8);
+}
+
+.center_heading h2 {
+    font-size: 38px;
+    font-weight: 300;
+    clear: #555;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* .left_site_pic img {
+    width: 300px;
+    height: 30px;
+} */
+
+.cmn h5 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #737373;
+    margin-bottom: 15px;
+}
+
+.cmn p {
+    font-size: 13px;
+    color: #737373;
+    margin-bottom: 40px;
+}
+
+.right_site .right_site_start {
+    width: 370px;
+}
+
+.right_site_form {
+    background: #f1f1f1;
+    padding: 25px;
+}
+
+.name input {
+    border: 1px solid #d9d9d9;
+    padding: 3px 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 95%;
+}
+
+.name_part {
+    display: flex;
+}
+
+.username input,
+.crt_password input,
+.cnf_password input {
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    padding: 3px 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.right_site_form h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: 5px;
+}
+
+.birth_part {
+    display: flex;
+    overflow: hidden;
+}
+
+.months select {
+    background: #f3f3f3;
+    border: 1px solid #d9d9d9;
+    padding: 3px 20px;
+}
+
+.days input {
+    width: 50%;
+    display: inline-block;
+    padding: 1px 5px;
+    margin-left: 5px;
+}
+
+.years input {
+    width: 150%;
+    display: inline-block;
+    margin-left: -51px;
+    padding: 1px 5px;
+}
+
+.gender {
+    margin-top: 20px;
+}
+
+.gender select {
+    background: #f3f3f3;
+    border: 1px solid #d9d9d9;
+    padding: 3px 5px;
+    width: 100%;
+}
+
+.mobile_number {
+    display: flex;
+}
+
+.mobile_number select {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 3px 0;
+    width: 18%;
+}
+
+.number input {
+    width: 150%;
+    overflow: hidden;
+    padding: 3px 0;
+    display: inline-block;
+    border: 1px solid #B9B9B9;
+}
+
+.mobile_part {
+    margin-top: 20px;
+}
+
+.current_email {
+    margin-top: 20px;
+}
+
+.current_email input {
+    padding: 3px 5px;
+    width: 100%;
+    border: 1px solid #d9d9d9;
+}
+
+.prove_part label {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.check_box {
+    display: flex;
+}
+
+.label_frm label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #222222;
+    padding-right: 35px;
+    line-height: 15px;
+}
+
+.captcha_part {
+    background: #fff;
+    border: 1px solid #d9d9d9;
+
+}
+
+.cap_img_part {
+    padding: 10px;
+}
+
+.captcha_part hr {
+    margin: 0;
+}
+
+.text-part_btm ul li {
+    display: inline-block;
+}
+
+.text-part_btm {
+    padding: 10px;
+}
+
+.right_site .right_site_form input:hover {
+    border: 1px solid #B9B9B9;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+}
+
+.text-part_btm input {
+    border: 1px solid #d9d9d9;
+    padding: 3px 5px;
+}
+
+.days input,
+.years input {
+    border: 1px solid #d9d9d9;
+    padding: 3px 5px;
+}
+
+.location select {
+    width: 100%;
+    padding: 0 5px;
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid #d9d9d9;
+}
+
+.btm_button a {
+    font-size: 13px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 4px 10px;
+    background: rgba(0, 0, 0, 0) linear-gradient(#4d90fd, #4787ee) repeat scroll 0 0;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btm_button a:hover {
+    background: linear-gradient(#4D90FE, #357AE8);
+}
+
+.last_p p {
+    color: #999999;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+
+.footer .footer_left ul li {
+    display: inline-block;
+}
+
+.footer .footer_left ul li a {
+    font-size: 13px;
+    color: #333333;
+    margin-right: 8px;
+    text-decoration: none;
+}
+
+.footer .footer_left ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer_right select {
+    font-size: 14px;
+}

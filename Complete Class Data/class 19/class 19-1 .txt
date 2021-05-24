@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>this is heading tag</h2>
+    <b>this is bold tag</b>
+    <i> this is italic tag</i>
+    <u>this is underline tag</u>
+    <d>this is delete tag</d>
+    <mark>this is mark tag</mark>
+    <small>this is small tag</small>
+    <strong>this is strong tag</strong>
+    <code>this is code tag</code>
+    <span>this is span</span>
+    <p>
+        A<sup>2</sup>+B<sup>2</sup>
+    </p> 
+    <p class="another-p">
+        H<sub>2</sub>0
+    </p>
+    <div class="div1">this is div tag</div>
+    <div class="another-div">
+        <a class="a1" href="#">click me</a>
+    </div>
+    <div class="another-div2">
+        <img src="../download.jpg" alt="">
+    </div>
+
+    <ul class="main-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Content</a></li>
+        <li><a href="#">Contract</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Media</a></li>
+        <li><a href="#">Other</a></li>
+    </ul>
+
+</body>
+</html>

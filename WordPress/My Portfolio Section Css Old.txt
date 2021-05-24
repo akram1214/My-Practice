@@ -1,0 +1,31 @@
+/* portfolio plugin  */
+
+.tlp-portfolio-image {
+    display: none;
+}
+.tlp-portfolio .button-group button {
+    background-color: #0162c8!important;
+    background-image: linear-gradient(to right, #0162c8 0%, #55e7fc 50%,#0162c8 100%)!important;
+    transition: all .2s ease-in-out;
+    background-size: 200% 100%!important;
+    color: #fff;
+  	padding: 7px 10px!important;
+  	font-size: 14px!important;
+  	border-radius: 5px;
+}
+.tlp-portfolio .button-group button:hover {
+    color: #fff;
+    background-color: #55e7fc!important;
+    border: none;
+    background-position: 100% 0!important;
+}
+.tlp-portfolio .button-group button.selected {
+    background-position: 100% 0!important;
+}
+ul.tlp-pagination .active span {
+    background-image: linear-gradient(to right, #0162c8 0%, #55e7fc 50%,#0162c8 100%);
+    background-size: 200% 200%;
+}
+.tlp-portfolio .isotope1 .tlp-overlay {
+    background-color: rgba(37, 111, 255, 0.50);
+}

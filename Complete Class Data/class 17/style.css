@@ -1,0 +1,13 @@
+.alone{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+}
+h2{
+    background-color: darkblue;
+    display: inline-block;
+    color: #fff;
+}
+body{
+    background: #ddd;
+}

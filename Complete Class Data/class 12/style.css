@@ -1,0 +1,24 @@
+h2{
+    color: rgb(21, 248, 14);
+    background-color: rgba(226, 21, 62,1);
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    word-spacing: 3px;
+    text-shadow:3px 2px blue;
+}
+
+h3{
+    color: rgb(248, 41, 14);
+    background-color: rgb(37, 122, 111);
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    color: rgb(5, 27, 221);
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+}

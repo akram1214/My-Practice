@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+      <!-- Typography -->
+    <div class="h3"> this is heading</div>
+    <p class="display-4">this is display class</p>
+    <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium sunt officiis, dolorum molestiae harum id error quam officia ut, aut praesentium quibusdam dignissimos itaque minus incidunt laboriosam, vel alias architecto.</p>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, hic. Culpa obcaecati inventore, neque adipisci sunt temporibus nisi facilis modi amet, mollitia laboriosam cumque, rem quae nesciunt ex. Iste, qui?</p>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <blockquote class="blockquote">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, illum?</p>
+            <span class="blockquote-footer">Akram</span>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+    <h3>
+      <small class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quas.</small>
+    </h3>
+    <hr> 
+
+      <!-- Image -->
+
+      <div class="container bg-info">
+        <div class="row">
+          <div class="col-lg-12">
+            <img class="img-fluid img-thumbnail mx-auto d-block rounded-circle" src="./image/cv profile.jpg" alt="">
+          </div>
+        </div>
+      </div>
+        <hr>
+      <div class="container clearfix">
+        <div class="row">
+          <div class="col-xl-6">
+            <div class="embed-responsive float-left">
+              <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/S-xrOMTCFPE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="embed-responsive float-right">
+              <iframe  class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14724.596853563991!2d90.63514791907326!3d22.685488609725866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3754d44be3791f4b%3A0xdf8a000125a851b9!2sBhola!5e0!3m2!1sen!2sbd!4v1603038739481!5m2!1sen!2sbd" width="450" height="315" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="sticky-top"> this is position </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card" style="width: 18rem;">
+              <img src="./image/cv profile.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card with stretched link</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <p class="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsum repellat saepe, dolore vero consectetur quo, suscipit hic aliquid doloribus, veniam autem quibusdam itaque nulla facere quas fugiat omnis laboriosam?</p>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4">
+            <a href="#" class="btn btn-primary">  bootstrap button</a>
+          </div>
+          <div class="col-xl-4">
+            <p class="border border-info rounded">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, consequatur. Eum rerum magnam repudiandae nisi?</p>
+          </div>
+          <div class="col-xl-4">
+            <h1 class="bg-primary bg-gradient text-white">this is heading</h1>
+            <h1 class="bg-secondary bg-gradient text-white">this is heading</h1>
+            <h1 class="bg-danger bg-gradient text-white">this is heading</h1>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="bg-success text-white p-2 d-inline">d-inline</div>
+
+      <small class="bg-info text-white p-2 d-block">d-block</small>
+
+      <hr>
+
+      <p class="user-select-all">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, aspernatur explicabo? Accusamus consequatur sint quidem voluptate veniam itaque corporis illum eos, repudiandae, expedita recusandae necessitatibus quisquam iste ullam repellendus. Iste dolores accusantium, autem ab cumque porro vitae ad perspiciatis aliquam omnis tempora, consectetur iusto quisquam temporibus quaerat officiis labore odit?</p>
+      <p class="user-select-auto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, aspernatur explicabo? Accusamus consequatur sint quidem voluptate veniam itaque corporis illum eos, repudiandae, expedita recusandae necessitatibus quisquam iste ullam repellendus. Iste dolores accusantium, autem ab cumque porro vitae ad perspiciatis aliquam omnis tempora, consectetur iusto quisquam temporibus quaerat officiis labore odit?</p>
+      <p class="user-select-none">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, aspernatur explicabo? Accusamus consequatur sint quidem voluptate veniam itaque corporis illum eos, repudiandae, expedita recusandae necessitatibus quisquam iste ullam repellendus. Iste dolores accusantium, autem ab cumque porro vitae ad perspiciatis aliquam omnis tempora, consectetur iusto quisquam temporibus quaerat officiis labore odit?</p>
+
+      <div class="overflow-auto bg-light p-3 mb-3" style="max-width: 250px; max-height: 100px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tempora nam pariatur possimus doloremque. Quae, quidem. Odio quas, placeat consequuntur odit corporis consequatur corrupti consectetur.</div>
+
+      <div class="main-div position-relative shadow-lg" style="width: 800px; border: 1px solid black;">
+        <div class="div1 bg-danger " style="height: 300px; width: 300px; ;;">div1</div>
+        <div class="div2 bg-info position-absolute" style="height: 300px; width: 300px; top: 63px; left: 23px;">div2</div>
+        <div class="div3 bg-primary position-absolute" style="height: 300px; width: 300px; top: 96px; left: 55px;">div3</div>
+      </div>
+
+      <div class="container mt-5 p-4">
+        <div class="row">
+          <div class="col-xl-12">
+            <p class="text-capitalize mt-5 font-weight-bolder font-monospace lh-lg text-decoration-underline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo eius, velit nulla sint, hic suscipit nobis aperiam rerum nemo ad sequi totam similique omnis eligendi quia eos ab eum soluta quas harum itaque impedit. Cumque aliquam, dolore laudantium sunt quis eaque sint at, ex ipsa quidem quo vel eius voluptas autem id earum neque reiciendis magnam. Omnis explicabo est iusto, aliquam vero ad quod ipsam quis commodi quia possimus, eos saepe minus. Quia sit corporis non incidunt atque totam cupiditate neque ea illo, nobis repellendus eligendi sequi a, maxime amet delectus natus provident dolorem iusto. Fugit aliquam neque sapiente?</p>
+          </div>
+        </div>
+      </div>
+
+
+<script src="./js/bootstrap.min.js"></script>
+
+</body>
+</html>

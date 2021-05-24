@@ -1,0 +1,9 @@
+li#menu-item-23 a {
+    padding: 12px 30px;
+    background-image: url(https://developerakram.xyz/exam3/wp-content/uploads/2021/01/rhn-btn-bg.jpg);
+background-size: contain!important;
+    transition: all .2s ease-in-out;
+}
+li#menu-item-23 a:hover {
+    background-image: url(https://developerakram.xyz/exam3/wp-content/uploads/2021/01/rhn-btn-hover.jpg)!important;
+}

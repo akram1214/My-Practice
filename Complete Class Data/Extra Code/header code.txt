@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.maindiv{
+    width: 1024px;
+    margin: auto;
+    background-color: #1277c8;
+    box-shadow: 1px 1px 10px rgb(73, 73, 73);
+}
+
+/* Header */
+
+.header{
+background-color: #2153a2;
+}
+.logo{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.logo img{
+    height: 57px;
+    margin-top: 1px;
+}
+.menu{
+    width: 70%;
+    float: right;
+}
+
+.menu ul{
+    list-style: none;
+}
+.menu ul li {
+    float: left;
+    border-right: 1px solid black;
+}
+.menu ul li:first-child {
+    border-left: 1px solid black;
+}
+
+.menu ul li a{
+    padding: 20px 30px;
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu ul li:hover a{
+    background-color: #133268;
+}

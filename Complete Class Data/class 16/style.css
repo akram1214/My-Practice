@@ -1,0 +1,37 @@
+.potaka{
+    height: 100px;
+    width: 250px;
+    background-color: green;
+    text-align: center;
+    padding: 20px;
+}
+.rokto{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+.bash{
+    height: 300px;
+    width: 20px;
+    background-color: rgb(182, 122, 11);
+}
+
+.dim{
+    height: 100px;
+    width: 250px;
+    background-color: rgb(245, 239, 220);
+    border: 6px solid rgb(224, 133, 15);
+    text-align: center;
+    border-radius: 50%;
+    padding: 20px;
+    margin-left: 50px;
+}
+.kusum{
+    height: 100px;
+    width: 100px;
+    background: rgb(231, 235, 48);
+    border-radius: 50%;
+    display: inline-block;
+}
